@@ -16,24 +16,22 @@ Repo: https://github.com/flatlineratheist/MediaGrab (a GPL-3.0 fork of JunkFood0
 - `./gradlew assembleGenericDebug` builds (needs JDK 21, see README).
 
 **Not done yet**
-- Nothing is committed or pushed. GitHub still shows the old code until you push.
 - The local folder under `~/Desktop/ai-code/` still has the upstream name.
 - Git history still contains the old name. That's normal for a fork; only a history rewrite would remove it.
 
 ## Next steps, in order
 
-1. **Commit and push the rebrand** to `main` (or a `rebrand` branch plus a PR).
-2. **Rename the local folder** under `~/Desktop/ai-code/` to `MediaGrab`.
-3. **Release signing**
+1. **Rename the local folder** under `~/Desktop/ai-code/` to `MediaGrab`.
+2. **Release signing**
    - Generate a release keystore and keep it out of git (`keystore.properties` is already in `.gitignore`).
    - Add GitHub secrets `SIGNING_KEY`, `ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD` for `.github/workflows/android.yml`.
    - Pin `ilharp/sign-android-release@nightly` in `android.yml` to a commit SHA. `@nightly` is a moving branch that receives your signing key.
-4. **Decide the version line.** The build is still `2.0.0-alpha.5` (in `buildSrc/src/main/kotlin/Version.kt` and `versionCode` in `app/build.gradle.kts`, which must match).
+3. **Decide the version line.** The build is still `2.0.0-alpha.5` (in `buildSrc/src/main/kotlin/Version.kt` and `versionCode` in `app/build.gradle.kts`, which must match).
    Because the app ID is new, you can restart at `1.0.0`.
-5. **First GitHub release.** The in-app updater (`util/UpdateUtil.kt`) expects:
+4. **First GitHub release.** The in-app updater (`util/UpdateUtil.kt`) expects:
    - a release name like `v1.0.0` or `v1.0.0-beta.1`
    - APK asset names that contain the ABI (`arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
-6. **Security fixes carried over from the original code** (found in the 2026-09-26 audit):
+5. **Security fixes carried over from the original code** (found in the 2026-09-26 audit):
    - [ ] `MainActivity` / `QuickDownloadActivity` pass `ACTION_VIEW` `intent.dataString` to yt-dlp unchecked, and the yt-dlp wrapper adds no `--` before URLs.
      A "URL" starting with `-` (for example `--exec=…`) becomes a yt-dlp option. Fix: accept only strings starting with `http://` or `https://`.
    - [ ] `allowBackup="true"` with no backup rules. Saved site cookies (Room DB, `app_webview/`) go into Google Drive backups.
@@ -42,10 +40,10 @@ Repo: https://github.com/flatlineratheist/MediaGrab (a GPL-3.0 fork of JunkFood0
      Add `-assumenosideeffects class android.util.Log { *; }` to `app/proguard-rules.pro`.
    - [ ] Imported command templates run as yt-dlp config files, so they can include `--exec`.
      Show a warning when an imported template contains `--exec`.
-7. **Translations.** "MediaGrab by Clinerds" on the About page is hard-coded English. The other 80 locales were updated by find-and-replace, so a native speaker should skim them.
-8. **yt-dlp fork.** The app doesn't use `flatlineratheist/yt-dlp` yet. yt-dlp updates come from the official `yt-dlp/yt-dlp` releases, which are hard-coded in the youtubedl-android library.
+6. **Translations.** "MediaGrab by Clinerds" on the About page is hard-coded English. The other 80 locales were updated by find-and-replace, so a native speaker should skim them.
+7. **yt-dlp fork.** The app doesn't use `flatlineratheist/yt-dlp` yet. yt-dlp updates come from the official `yt-dlp/yt-dlp` releases, which are hard-coded in the youtubedl-android library.
    To use the fork, publish releases in it and change the updater, or keep the fork only for patches and sync it now and then.
-9. **Store listing.** The fastlane metadata was deleted. Write new Play Store / F-Droid text and screenshots when you publish.
+8. **Store listing.** The fastlane metadata was deleted. Write new Play Store / F-Droid text and screenshots when you publish.
 
 ## Rules to keep
 
