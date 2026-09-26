@@ -23,9 +23,20 @@ Repo: https://github.com/flatlineratheist/MediaGrab (a GPL-3.0 fork of JunkFood0
 
 1. **Rename the local folder** under `~/Desktop/ai-code/` to `MediaGrab`.
 2. **Release signing**
-   - Generate a release keystore and keep it out of git (`keystore.properties` is already in `.gitignore`).
-   - Add GitHub secrets `SIGNING_KEY`, `ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD` for `.github/workflows/android.yml`.
-   - Pin `ilharp/sign-android-release@nightly` in `android.yml` to a commit SHA. `@nightly` is a moving branch that receives your signing key.
+   - [x] Release key at `~/keystores/clinerds/mediagrab-release.jks` (alias `mediagrab`, RSA 4096, valid until 2054).
+     The password is in `keystore.properties` in the repo root, which git ignores (as it does `*.jks`).
+     **Back up both files** to a password manager or an offline copy. Without them you can never ship an update to existing installs.
+   - [x] Local release builds are signed automatically when `keystore.properties` exists (`./gradlew assembleGenericRelease`).
+   - [x] `.github/workflows/android.yml` signs through Gradle from the secrets. The third-party `ilharp/sign-android-release@nightly` action is gone.
+   - [ ] Add the four GitHub secrets (`SIGNING_KEY`, `ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`). Run from the repo root:
+     ```bash
+     cd <repo> && get(){ grep "^$1=" keystore.properties | cut -d= -f2-; }; R=flatlineratheist/MediaGrab
+     base64 -w0 "$(get storeFile)" | gh secret set SIGNING_KEY -R $R
+     get keyAlias | tr -d '\n' | gh secret set ALIAS -R $R
+     get storePassword | tr -d '\n' | gh secret set KEY_STORE_PASSWORD -R $R
+     get keyPassword | tr -d '\n' | gh secret set KEY_PASSWORD -R $R
+     ```
+   - [ ] Run the "Build Release APK" workflow once (`gh workflow run android.yml -R flatlineratheist/MediaGrab`) and check that it produces signed APKs.
 3. **Decide the version line.** The build is still `2.0.0-alpha.5` (in `buildSrc/src/main/kotlin/Version.kt` and `versionCode` in `app/build.gradle.kts`, which must match).
    Because the app ID is new, you can restart at `1.0.0`.
 4. **First GitHub release.** The in-app updater (`util/UpdateUtil.kt`) expects:
