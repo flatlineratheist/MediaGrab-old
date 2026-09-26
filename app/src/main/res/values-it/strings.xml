@@ -120,13 +120,11 @@
     <string name="share_fail_msg">Impossibile abbinare l\'URL al contenuto condiviso</string>
     <string name="subdirectory">Salva in una sottodirectory</string>
     <string name="battery_configuration">Configurazione della batteria</string>
-    <string name="service_title">Seal sta scaricando…</string>
+    <string name="service_title">MediaGrab sta scaricando…</string>
     <string name="subdirectory_desc">Salva i file in cartelle chiamate come i rispettivi siti web</string>
     <string name="permission_issue">Problema relativo all\'autorizzazione di archiviazione</string>
-    <string name="translate_desc">Contribuisci a tradurre questa applicazione su Hosted Weblate</string>
     <string name="unknown_error">Errore sconosciuto</string>
     <string name="battery_configuration_desc">Ignora l\'ottimizzazione della batteria per lo scaricamento dell\'app in sfondo</string>
-    <string name="translate">Traduci</string>
     <string name="permission_issue_desc">Le directory al di fuori di Download/ e Documenti/ non sono supportate</string>
     <string name="concurrent_download">Download multi-thread</string>
     <string name="concurrent_download_num">I thread %d sarebbero utilizzati per scaricare video nativi DASH/HLS in parallelo.</string>
@@ -216,13 +214,11 @@
     <string name="suggested">Suggerito</string>
     <string name="format_selection">Selezione del formato</string>
     <string name="generate_new_cookies">Genera nuovi cookie</string>
-    <string name="matrix_space">Spazio Matrix</string>
     <string name="cookies">Cookie</string>
     <string name="use_cookies">Usa i cookie</string>
     <string name="remove_cookie_profile_desc">Rimuovere i cookie per «%1$s»? Nota che i cookie salvati per questo sito non saranno rimossi.</string>
     <string name="custom_command_enabled_hint">Alcune opzioni non sono disponibili quando si utilizza un comando personalizzato</string>
     <string name="how_does_it_work">Come funziona\?</string>
-    <string name="telegram_channel">Canale Telegram</string>
     <string name="cookies_usage_msg">La scaricamento da alcuni siti richiede le informazioni di autenticazione dell\'account. Clicca su „Genera nuovi cookie“, inserisci l\'URL del sito web e poi accedi con il tuo account nella pagina del browser: l\'applicazione lo genererà per te.</string>
     <string name="abs_hint">La maggior parte delle piattaforme di streaming video fornisce audio e video separatamente; è possibile selezionare e unire un formato solo audio con un formato solo video in un unico video.</string>
     <string name="add">Aggiungi</string>
@@ -277,20 +273,15 @@
     <string name="minute">minuto</string>
     <string name="clear_all_cookies">Cancella tutti i cookie</string>
     <string name="second">secondo</string>
-    <string name="sponsor">Sponsor</string>
     <string name="feedback">Commenti</string>
-    <string name="sponsors">Sponsor</string>
     <string name="clip_video_desc">Crea videoclip nella pagina di selezione del formato</string>
     <string name="discard">Scarta</string>
     <string name="apply">Applica</string>
     <string name="clip_video">Video clip</string>
-    <string name="sponsor_desc">Sostieni questa applicazione sponsorizzando su GitHub</string>
-    <string name="sponsor_msg">Seal sarà sempre libero e gratuito per tutti. Se ti piace, considera la possibilità di sponsorizzarmi su GitHub!</string>
     <string name="import_from_preferences">Importa</string>
     <string name="temporary_directory_desc">Salva file temporanei nella directory interna</string>
     <string name="msg_from_developer">Messaggio dello sviluppatore</string>
-    <string name="sponsor_msg2">Grazie mille!</string>
-    <string name="auto_update_disabled_msg">L\'aggiornamento automatico non è disponibile per le build %1$s. Se non hai installato %1$s sul dispositivo, o se vorresti provare in anteprima le nuove funzionalità di Seal, considera %2$s.</string>
+    <string name="auto_update_disabled_msg">L\'aggiornamento automatico non è disponibile per le build %1$s. Se non hai installato %1$s sul dispositivo, o se vorresti provare in anteprima le nuove funzionalità di MediaGrab, considera %2$s.</string>
     <string name="okay">Va bene</string>
     <string name="got_it">Ho capito</string>
     <string name="feature_unavailable">Funzione non disponibile</string>
@@ -310,9 +301,9 @@
     <string name="ytdlp_update_action">Aggiorna yt-dlp</string>
     <string name="proxy">Proxy</string>
     <string name="quality">Qualità</string>
-    <string name="custom_command_usage_msg">yt-dlp è uno strumento da riga di comando per scaricare i video. Seal permette di usare facilmente yt-dlp provvedendo un\'intuitiva interfaccia grafica e altre funzionalità aggiuntive.
+    <string name="custom_command_usage_msg">yt-dlp è uno strumento da riga di comando per scaricare i video. MediaGrab permette di usare facilmente yt-dlp provvedendo un\'intuitiva interfaccia grafica e altre funzionalità aggiuntive.
 \n
-\nPer un utilizzo avanzato di yt-dlp, Seal permette la creazione, l\'esecuzione e il salvataggio di comandi personalizzati, come fosse un terminale.
+\nPer un utilizzo avanzato di yt-dlp, MediaGrab permette la creazione, l\'esecuzione e il salvataggio di comandi personalizzati, come fosse un terminale.
 \n
 \nDurante l\'utilizzo di comandi personalizzati la maggior parte delle opzioni dell\'interfaccia grafica verranno disabilitate.</string>
     <string name="enable_notifications_desc">L\'app ha bisogno del tuo permesso per inviare le notifiche sullo stato e progresso del download.</string>

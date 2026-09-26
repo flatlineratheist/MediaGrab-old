@@ -116,9 +116,7 @@
     <string name="permission_issue_desc">Folder selain Download and Document tidak disokong</string>
     <string name="battery_configuration">Konfigurasi bateri</string>
     <string name="battery_configuration_desc">Abaikan pengoptimuman bateri bagi aplikasi ini untuk membolehkannya berjalan di latar belakang</string>
-    <string name="service_title">Seal sedang memuat turun…</string>
-    <string name="translate">Terjemah</string>
-    <string name="translate_desc">Bantu terjemah aplikasi ini on Hosted Weblate</string>
+    <string name="service_title">MediaGrab sedang memuat turun…</string>
     <string name="prefix">Templat laluan</string>
     <string name="embed_subtitles">Benamkan seri kata</string>
     <string name="template_label">Label</string>
@@ -219,11 +217,9 @@
     <string name="edit_shortcuts_desc">Edit jalan pintas tersuai yang boleh digunakan untuk mengarang templat arahan.</string>
     <string name="cookies">Kuki</string>
     <string name="generate_new_cookies">Menjana kuki baharu</string>
-    <string name="telegram_channel">Saluran Telegram</string>
     <string name="remove_cookie_profile_desc">Buang kuki untuk \"%1$s\"?</string>
     <string name="custom_command_enabled_hint">Sebahagian pilihan tidak ada apabila menggunakan arahan tersuai</string>
     <string name="how_does_it_work">Bagaimana ia berfungsi\?</string>
-    <string name="matrix_space">Ruang Matrix</string>
     <string name="cookies_usage_msg">Memuat turun daripada sebahagian laman memerlukan maklumat pengesahan akaun. Tekan \"Menjana kuki baharu\",masukkan URL laman sesawang tersebut dan kemudian log masuk dengan akaun anda dalam muka surat pelayar, aplikasi tersebut akan menjananya untuk anda.</string>
     <string name="sdcard_directory">Folder kad SD</string>
     <string name="auto_subtitle">Kapsyen automatik</string>
@@ -273,7 +269,7 @@
     <string name="beta_features">Beta</string>
     <string name="enable_experimental_feature">Membenarkan ciri percubaan\?</string>
     <string name="clip_video_desc">Buat klip video dalam muka surat pilihan format</string>
-    <string name="auto_update_disabled_msg">Kemas kini automatik tidak ada untuk binaan %1$s. Jika anda tiada %1$s dipasang pada peranti anda, atau anda ingin pratonton ciri baharu yang akan datang dalam Seal, sila pertimbangkan %2$s.</string>
+    <string name="auto_update_disabled_msg">Kemas kini automatik tidak ada untuk binaan %1$s. Jika anda tiada %1$s dipasang pada peranti anda, atau anda ingin pratonton ciri baharu yang akan datang dalam MediaGrab, sila pertimbangkan %2$s.</string>
     <string name="switch_to_github_builds">bertukar kepada binaan GitHub</string>
     <string name="okay">Baik</string>
     <string name="got_it">Faham</string>
@@ -283,12 +279,8 @@
     <string name="unlimited">Tidak terhad</string>
     <string name="audio_quality">Kualiti audio</string>
     <string name="audio_quality_desc">Hadkan kadar bit audio apabila terdapat pelbagai kualiti</string>
-    <string name="sponsor_desc">Sokong aplikasi ini dengan menaja di Github</string>
     <string name="clip_video_dialog_msg">Muat turun mengguna ciri ini akan diwakilkan kepada FFmpeg untuk memuat turun bahagian video yang dipilih, ciri ini masih dalam percubaan dan pemotongan tidak akan menjadi tepat sepenuhnya, tidak semua formag sokong ciri ini dan anda mungkin akan mengalami kelajuan muat turun yang lebih perlahan.</string>
     <string name="clip_video">Video klip</string>
     <string name="temporary_directory_desc">Simpan fail sementara dalam direktori dalaman</string>
-    <string name="sponsor">Taja</string>
     <string name="feedback">Maklum balas</string>
-    <string name="sponsors">Penaja</string>
-    <string name="sponsor_msg">Seal akan sentiasa menjadi percuma dan sumber terbuka untuk semua orang. Jika anda suka, sila pertimbangkan untuk menaja saya di GitHub!</string>
 </resources>

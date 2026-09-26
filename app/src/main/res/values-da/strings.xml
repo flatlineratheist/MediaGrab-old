@@ -43,9 +43,8 @@
     <string name="to">Slut</string>
     <string name="invalid_index_range">Ugyldigt indeksområde</string>
     <string name="playlist_indicator_text">Download spilleliste (%1$d/%2$d), tryk for at stoppe.</string>
-    <string name="service_title">Seal laster ned …</string>
+    <string name="service_title">MediaGrab laster ned …</string>
     <string name="unknown_error">Ukendt feil</string>
-    <string name="translate">Overset</string>
     <string name="confirm">Bekræft</string>
     <string name="dismiss">Afbryd</string>
     <string name="downloads_history">Nedlastninger</string>
@@ -125,7 +124,6 @@
     <string name="download_notification_desc">Tilby meddelelse om filer og fremdrift</string>
     <string name="download_range_desc">Angiv hvilke videoer, der skal downloades fra afspilningslisten \"%3$s\" (fra %1$d til %2$d).</string>
     <string name="permission_issue_desc">Mapper udenfor Download/ og Documents/ understøttes ikke</string>
-    <string name="translate_desc">Bistå oversættelsen af programmet på Hosted Weblate</string>
     <string name="battery_configuration_desc">Ignorer batterioptimering så dette program kan laste ned i baggrunden</string>
     <string name="fetching_playlist_info">Henter spillelisteinfo …</string>
     <string name="download_notification">Meddelelse om nedlastning</string>
@@ -226,7 +224,6 @@
     <string name="remove_cookie_profile_desc">Fjern cookies for \"%1$s\"?</string>
     <string name="custom_command_enabled_hint">Nogle muligheder er utilgængelige, når brugerdefineret kommando bruges</string>
     <string name="cookies_usage_msg">Download fra nogle websteder kræver kontogodkendelse. Klik på \"Generer nye cookies\", indtast webadressen på hjemmesiden og log derefter ind med din konto på browsersiden; appen genererer den nye cookie for dig.</string>
-    <string name="telegram_channel">Telegram-kanal</string>
     <string name="abs_hint">De fleste videostreamingplatforme leverer lyd og video separat, du kan vælge og flette et lydformat med et videoformat til en enkelt video.</string>
     <string name="github_issue">GitHub-problem</string>
     <string name="restart">Genstart</string>

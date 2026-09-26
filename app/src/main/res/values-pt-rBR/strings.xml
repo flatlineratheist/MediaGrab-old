@@ -109,10 +109,8 @@
     <string name="share_fail_msg">Não foi possível corresponder o URL do conteúdo compartilhado</string>
     <string name="concurrent_download_num">%d fragmento(s) seriam usados para baixar vídeo nativo DASH/HLS simultaneamente.</string>
     <string name="permission_issue">Problema de permissão de armazenamento</string>
-    <string name="translate">Traduzir</string>
     <string name="battery_configuration_desc">Ignorar \"Otimização da Bateria\" para este aplicativo fazer download em segundo plano</string>
     <string name="unknown_error">Erro desconhecido</string>
-    <string name="translate_desc">Ajude a traduzir este aplicativo em seu idioma usando Weblate</string>
     <string name="back">Voltar</string>
     <string name="checked">Verificado</string>
     <string name="custom_command_desc">Executar o comando yt-dlp com um modelo personalizado</string>
@@ -129,7 +127,7 @@
     <string name="close">Fechar</string>
     <string name="download_notification">Notificação de download</string>
     <string name="download_range_selection">Seleção de playlist</string>
-    <string name="service_title">Seal está fazendo o download…</string>
+    <string name="service_title">MediaGrab está fazendo o download…</string>
     <string name="prefix">Prefixo</string>
     <string name="open_file">Abrir arquivo</string>
     <string name="restart">Reiniciar</string>
@@ -238,7 +236,6 @@
     <string name="auto_update">Atualização automática</string>
     <string name="enable_auto_update">Ativar atualização automática</string>
     <string name="logs">Log</string>
-    <string name="matrix_space">Espaço no Matrix</string>
     <string name="abs_hint">A maioria das plataformas de streaming de vídeo oferece áudio e vídeo separadamente, você pode selecionar e mesclar um formato somente de áudio com um formato somente de vídeo em um único vídeo.</string>
     <string name="discard">Descartar</string>
     <string name="apply">Aplicar</string>
@@ -251,7 +248,6 @@
     <string name="cookies">Cookies</string>
     <string name="remove_cookie_profile_desc">Remover esta entrada para \"%1$s\"? Observe que os cookies armazenados neste site não serão apagados.</string>
     <string name="custom_command_enabled_hint">Algumas opções não estão disponíveis ao usar o comando personalizado</string>
-    <string name="telegram_channel">Canal do Telegram</string>
     <string name="sdcard_directory">Pasta do cartão SD</string>
     <string name="auto_subtitle">Legendas automáticas</string>
     <string name="auto_subtitle_desc">Baixar legendas geradas automaticamente</string>
@@ -276,12 +272,8 @@
     <string name="audio_format_preference">Formato de áudio preferido</string>
     <string name="audio_quality">Qualidade do áudio</string>
     <string name="format_sorting">Classificação de formatos</string>
-    <string name="sponsors">Patrocinadores</string>
-    <string name="sponsor_desc">Apoie este aplicativo patrocinando no GitHub</string>
-    <string name="sponsor">Patrocinar</string>
     <string name="temporary_directory_desc">Armazenar arquivos temporários no diretório interno</string>
     <string name="feedback">Feedback</string>
-    <string name="sponsor_msg">Seal sempre será livre e de código aberto para todos. Se você gostou, por favor, considere me patrocinar no GitHub!</string>
     <string name="audio_format">Formato de áudio</string>
     <string name="no_downloaded_media">Nenhuma mídia baixada</string>
     <string name="beta_features">Beta</string>
@@ -292,8 +284,7 @@
     <string name="okay">Certo</string>
     <string name="got_it">Entendi</string>
     <string name="feature_unavailable">Recurso não disponível</string>
-    <string name="auto_update_disabled_msg">A atualização automática não está disponível para as versões do %1$s. Se você não tem o %1$s instalado em seu dispositivo, ou gostaria de visualizar novos recursos em desenvolvimento no aplicativo Seal, por favor, considere %2$s.</string>
-    <string name="sponsor_msg2">Muito obrigado!</string>
+    <string name="auto_update_disabled_msg">A atualização automática não está disponível para as versões do %1$s. Se você não tem o %1$s instalado em seu dispositivo, ou gostaria de visualizar novos recursos em desenvolvimento no aplicativo MediaGrab, por favor, considere %2$s.</string>
     <string name="msg_from_developer">Mensagem do desenvolvedor</string>
     <string name="convert_subtitle">Converter legendas</string>
     <string name="convert_subtitle_desc">Converter legendas para outro formato</string>
@@ -338,9 +329,9 @@
     </plurals>
     <string name="ua_header">Cabeçalho de requisição User-Agent</string>
     <string name="export_to_file">Exportar como arquivo</string>
-    <string name="custom_command_usage_msg">O yt-dlp é uma poderosa ferramenta de linha de comando para fazer download de vídeos. Seal facilita o uso do yt-dlp, fornecendo uma GUI intuitiva, predefinições para comandos comuns e outros recursos adicionais.
+    <string name="custom_command_usage_msg">O yt-dlp é uma poderosa ferramenta de linha de comando para fazer download de vídeos. MediaGrab facilita o uso do yt-dlp, fornecendo uma GUI intuitiva, predefinições para comandos comuns e outros recursos adicionais.
 \n
-\nPara uso avançado do yt-dlp, o Seal permite criar, salvar e executar modelos de comandos personalizados diretamente, como em um terminal.
+\nPara uso avançado do yt-dlp, o MediaGrab permite criar, salvar e executar modelos de comandos personalizados diretamente, como em um terminal.
 \n
 \nAo usar comandos personalizados, a maioria das opções e recursos da GUI seriam desabilitados.</string>
     <string name="presets">Predefinições</string>

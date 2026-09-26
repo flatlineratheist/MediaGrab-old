@@ -63,7 +63,7 @@
     <string name="yt_dlp_up_to_date">Bruker nyeste versjon av yt-dlp</string>
     <string name="release_desc">Se etter endringslogger og nye versjoner</string>
     <string name="display_settings">Mørk drakt, dynamisk farge, språk</string>
-    <string name="service_title">Seal laster ned …</string>
+    <string name="service_title">MediaGrab laster ned …</string>
     <string name="video_format_preference">Foretrukket videoformat</string>
     <string name="preferred_format_desc">Valgt format når flere tilbys</string>
     <string name="paste_desc">Klikk «Lim inn» for å hente videolenken fra utklippstavlen din.</string>
@@ -101,8 +101,6 @@
     <string name="execute_command_notification">Kjører egendefinerte kommandoer …</string>
     <string name="video_quality_desc">Begrens formatkvaliteten til dette nivået</string>
     <string name="battery_settings_desc">Sett batteribruk for dette programmet til «Ubegrenset» i systeminnstillingene for nedlasting i bakgrunnen.</string>
-    <string name="translate">Oversett</string>
-    <string name="translate_desc">Bistå oversettelsen på Hosted Weblate</string>
     <string name="video_directory">Videomappe</string>
     <string name="extract_audio">Lagre som lyd</string>
     <string name="download_settings_desc">Generelt, format, egendefinert kommando</string>

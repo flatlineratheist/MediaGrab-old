@@ -97,7 +97,7 @@
     <string name="subdirectory_desc">فایل‌ها را در پوشه‌هایی با نام حیطه مربوطه ذخیره کنید</string>
     <string name="permission_issue">مشکل در مجوز ذخیره سازی</string>
     <string name="permission_issue_desc">دایرکتوری های خارج از Download/ و Documents/ پشتیبانی نمی شوند</string>
-    <string name="service_title">Seal در حال دانلود است…</string>
+    <string name="service_title">MediaGrab در حال دانلود است…</string>
     <string name="best_quality">بهترین کیفیت (پیش فرض)</string>
     <string name="settings_before_download">قبل از دانلود پیکربندی کنید</string>
     <string name="settings_before_download_desc">تنظیمات برگزیده را قبل از دانلود پیکربندی کنید</string>
@@ -108,14 +108,12 @@
     <string name="not_specified">مشخص نشده (پیش فرض)</string>
     <string name="convert_audio">تبدیل</string>
     <string name="battery_configuration_desc">بهینه سازی باتری را برای دانلود در پس زمینه این برنامه نادیده بگیرید</string>
-    <string name="translate">ترجمه</string>
     <string name="video_format">فرمت ویدئو</string>
     <string name="download_notification_desc">اطلاع از فایل های دانلود شده و پیشرفت</string>
     <string name="unknown_error">خطای ناشناخته</string>
     <string name="start_download">بارگیری</string>
     <string name="user_guide">راهنمای کاربر</string>
     <string name="share_fail_msg">مطابقت پیوند از محتوای مشترک ممکن نیست</string>
-    <string name="translate_desc">به ترجمه این برنامه در Weblate میزبانی شده کمک کنید</string>
     <string name="paste_desc">برای دریافت پیوند ویدیو از کلیپ‌بورد، روی \"جای‌گذاری\" کلیک کنید.</string>
     <string name="check_download_settings_desc">به تنظیمات دانلود نگاهی بیندازید و قبل از استفاده مطمئن شوید که آخرین نسخه yt-dlp را دارید.</string>
     <string name="channel_description">اطلاع از فایل های دانلود شده و پیشرفت دانلود</string>
@@ -189,7 +187,6 @@
     <string name="clip_end">پایان</string>
     <string name="check_for_updates">بررسی بروزرسانی</string>
     <string name="clear_temp_files">فایل های موقت را پاک کنید</string>
-    <string name="telegram_channel">کاناال تلگرام</string>
     <string name="task_canceled">عملیات دانلود لغو شد</string>
     <string name="dynamic_color_desc">رنگ ها را از والپیپرها به تم برنامه اعمال کنید</string>
     <string name="clear_temp_files_count">%1$d فایل(های) موقت حذف شد</string>
@@ -232,7 +229,6 @@
     <string name="use_cookies">انتخاب کوکی ها</string>
     <string name="remove_cookie_profile_desc">این ورودی به ازای «%1$s» حذف شود؟ لطفا بخاطر داشته باشید که کوکی‌های ذخیره شده در این سایت پاک نمی‌شوند.</string>
     <string name="how_does_it_work">چگونه کار می کند؟</string>
-    <string name="matrix_space">فضای ماتریس</string>
     <string name="recently_added">به تازگی اضافه شده</string>
     <string name="status_downloading">در حال دانلود</string>
     <string name="video_file_size">اندازه فایل ویدیویی</string>
@@ -278,10 +274,9 @@
     <string name="beta_features">آزمایشی</string>
     <string name="enable_experimental_feature">ویژگی آزمایشی فعال شود؟</string>
     <string name="clip_video_desc">در صفحه انتخاب فرمت کلیپ های ویدیویی بسازید</string>
-    <string name="sponsor_msg2">بسیار از شما متشکرم!</string>
     <string name="audio_format">فرمت صوتی</string>
     <string name="no_downloaded_media">رسانه دانلود شده ای وجود ندارد</string>
-    <string name="auto_update_disabled_msg">به‌روزرسانی خودکار برای ساخت‌های %1$s در دسترس نیست. اگر %1$s را روی دستگاه خود نصب نکرده‌اید، یا می‌خواهید ویژگی‌های جدید آینده را در Seal پیش‌نمایش کنید، لطفاً %2$s را در نظر بگیرید.</string>
+    <string name="auto_update_disabled_msg">به‌روزرسانی خودکار برای ساخت‌های %1$s در دسترس نیست. اگر %1$s را روی دستگاه خود نصب نکرده‌اید، یا می‌خواهید ویژگی‌های جدید آینده را در MediaGrab پیش‌نمایش کنید، لطفاً %2$s را در نظر بگیرید.</string>
     <string name="clip_video_dialog_msg">دانلودهایی که از این ویژگی استفاده می کنند به FFmpeg واگذار می شود تا بخش های انتخابی ویدیو را دانلود کند، این ویژگی همچنان آزمایشی است و برش کاملاً دقیق نخواهد بود، همه فرمت ها از این ویژگی پشتیبانی نمی کنند و ممکن است سرعت دانلود پایین تری را تجربه کنید.</string>
     <string name="msg_from_developer">پیام از طرف توسعه دهنده</string>
     <string name="switch_to_github_builds">تغییر به نسخه گیتهاب</string>
@@ -290,11 +285,7 @@
     <string name="feature_unavailable">ویژگی در دسترس نیست</string>
     <string name="prefix">پیشوند</string>
     <string name="no_custom_command_tasks">بدون وظایف دستوری سفارشی</string>
-    <string name="sponsor">حامی مالی</string>
-    <string name="sponsor_desc">با حمایت مالی در GitHub از این برنامه حمایت کنید</string>
-    <string name="sponsor_msg">Seal همیشه رایگان و منبع باز برای همه خواهد بود. اگر دوست دارید، لطفاً در GitHub از من حمایت کنید!</string>
     <string name="feedback">بازخورد</string>
-    <string name="sponsors">حامیان</string>
     <string name="temporary_directory_desc">دخیره فایل های موقت را در دایرکتوری داخلی</string>
     <string name="clear_download_archive">خالی کردن بایگانی دانلود؟</string>
     <string name="save">ذخیره</string>
@@ -344,9 +335,9 @@
     <string name="proxy">پروکسی</string>
     <string name="look_and_feel">بر و رو</string>
     <string name="interface_and_interaction">رابط و تعامل</string>
-    <string name="custom_command_usage_msg">yt-dlp یک ابزار دستور متنی برای دانلود ویدئو است. Seal، استفاده از yt-dlp را با کمک محیط گرافیک قابل‌فهم، دستورات مرسوم پیش‌فرض، و قابلیت‌های اضافی آسان می‌کند.
+    <string name="custom_command_usage_msg">yt-dlp یک ابزار دستور متنی برای دانلود ویدئو است. MediaGrab، استفاده از yt-dlp را با کمک محیط گرافیک قابل‌فهم، دستورات مرسوم پیش‌فرض، و قابلیت‌های اضافی آسان می‌کند.
 \n
-\nSeal با کمک ساختن، ذخیره و اجرا قالب‌های دستوری مرسوم به صورت مستقیم، همانند ترمینال، به شما اجازه می‌دهد تا از قابلیت‌های پیشرفته بهره‌مند شوید.
+\nMediaGrab با کمک ساختن، ذخیره و اجرا قالب‌های دستوری مرسوم به صورت مستقیم، همانند ترمینال، به شما اجازه می‌دهد تا از قابلیت‌های پیشرفته بهره‌مند شوید.
 \n
 \nهنگام استفاده از دستورات، اکثر تنظیمات و قابلیت‌ها غیرفعال می‌شوند.</string>
     <string name="commands">دستورات</string>

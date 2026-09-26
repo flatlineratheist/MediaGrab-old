@@ -110,7 +110,7 @@
     <string name="permission_issue">Problème de permission de stockage</string>
     <string name="permission_issue_desc">Les répertoires autres que Download/ et Documents/ ne sont pas pris en charge</string>
     <string name="battery_configuration_desc">Ignorer l\'optimisation de la batterie pour les téléchargements en arrière-plan</string>
-    <string name="service_title">Seal est en cours de téléchargement…</string>
+    <string name="service_title">MediaGrab est en cours de téléchargement…</string>
     <string name="unknown_error">Erreur inconnue</string>
     <string name="video_url">Lien vidéo</string>
     <string name="download_finish_notification">Téléchargement terminé. Appuyez pour ouvrir.</string>
@@ -128,8 +128,6 @@
     <string name="best_quality">Meilleure qualité</string>
     <string name="video_quality_desc">Limiter la qualité lorsque plusieurs vidéos sont présentes</string>
     <string name="open_settings">Ouvrir les paramètres</string>
-    <string name="translate">Traduire</string>
-    <string name="translate_desc">Aidez à traduire cette application sur Hosted Weblate</string>
     <string name="prefix">Préfixe</string>
     <string name="embed_subtitles">Sous-titres intégrés</string>
     <string name="embed_subtitles_desc">Intégrer les sous-titres dans les vidéos, si disponibles</string>
@@ -218,12 +216,10 @@
     <string name="generate_new_cookies">Générer de nouveaux cookies</string>
     <string name="cookies">Cookies</string>
     <string name="cookies_usage_msg">Le téléchargement à partir de certains sites nécessite des informations d\'authentification du compte. Cliquez sur « Générer de nouveaux cookies », saisissez l\'URL du site web, puis connectez-vous avec votre compte dans la page du navigateur, l\'application les générera pour vous.</string>
-    <string name="telegram_channel">Canal Telegram</string>
     <string name="use_cookies">Utiliser les cookies</string>
     <string name="remove_cookie_profile_desc">Retirer cette entrée pour « %1$s » ? Veuillez noter que les cookies stockés pour ce site ne seront pas effacés.</string>
     <string name="custom_command_enabled_hint">Certaines options ne sont pas disponibles lors de l\'utilisation de commande(s) personnalisée(s)</string>
     <string name="how_does_it_work">Comment ça fonctionne ?</string>
-    <string name="matrix_space">Espace Matrix</string>
     <string name="abs_hint">La plupart des plateformes de streaming vidéo fournissent l\'audio et la vidéo séparément. Vous pouvez sélectionner et fusionner un format uniquement audio avec un format uniquement vidéo pour obtenir une seule vidéo.</string>
     <string name="sdcard_directory">Dossier de la carte SD</string>
     <string name="auto_subtitle">Sous-titres automatiques</string>
@@ -282,20 +278,15 @@
     <string name="minute">minute</string>
     <string name="clear_all_cookies">Effacer tous les cookies</string>
     <string name="clear_all_cookies_desc">Supprimer définitivement tous les cookies stockés dans l\'application ?</string>
-    <string name="sponsor">Sponsor</string>
-    <string name="sponsor_desc">Soutenez cette application en la parrainant sur GitHub</string>
-    <string name="sponsor_msg">Seal sera toujours libre et gratuit pour tout le monde. Si vous l\'aimez, pensez à me parrainer sur GitHub !</string>
     <string name="feedback">Remarques</string>
-    <string name="sponsors">Sponsors</string>
     <string name="temporary_directory_desc">Stocker les fichiers temporaires dans le répertoire interne</string>
     <string name="okay">D\'accord</string>
     <string name="got_it">Compris</string>
     <string name="feature_unavailable">Fonctionnalité non disponible</string>
     <string name="no_custom_command_tasks">Aucune tâche de commande personnalisée</string>
-    <string name="auto_update_disabled_msg">La mise à jour automatique n\'est pas disponible pour les versions %1$s. Si vous n\'avez pas installé %1$s sur votre appareil, ou si vous souhaitez avoir un aperçu des nouvelles fonctionnalités de Seal, veuillez consulter %2$s.</string>
+    <string name="auto_update_disabled_msg">La mise à jour automatique n\'est pas disponible pour les versions %1$s. Si vous n\'avez pas installé %1$s sur votre appareil, ou si vous souhaitez avoir un aperçu des nouvelles fonctionnalités de MediaGrab, veuillez consulter %2$s.</string>
     <string name="switch_to_github_builds">passer aux moutures GitHub</string>
     <string name="msg_from_developer">Message du développeur</string>
-    <string name="sponsor_msg2">Merci beaucoup !</string>
     <string name="convert_subtitle">Convertir les sous-titres</string>
     <string name="convert_subtitle_desc">Convertir les sous-titres dans un autre format</string>
     <string name="split_video">Séparer la vidéo</string>
@@ -307,9 +298,9 @@
     <string name="edit_template">Modifier « %1$s »</string>
     <string name="new_task">Nouvelle tâche de téléchargement</string>
     <string name="start">Commencer</string>
-    <string name="custom_command_usage_msg">yt-dlp est un puissant outil en ligne de commande pour le téléchargement de vidéos. Seal facilite l\'utilisation de yt-dlp en fournissant une interface graphique intuitive, des préréglages pour les commandes courantes et d\'autres fonctionnalités supplémentaires.
+    <string name="custom_command_usage_msg">yt-dlp est un puissant outil en ligne de commande pour le téléchargement de vidéos. MediaGrab facilite l\'utilisation de yt-dlp en fournissant une interface graphique intuitive, des préréglages pour les commandes courantes et d\'autres fonctionnalités supplémentaires.
 \n
-\nPour une utilisation avancée de yt-dlp, Seal vous permet de créer, de sauvegarder et d\'exécuter des modèles de commandes personnalisées directement, comme dans un terminal.
+\nPour une utilisation avancée de yt-dlp, MediaGrab vous permet de créer, de sauvegarder et d\'exécuter des modèles de commandes personnalisées directement, comme dans un terminal.
 \n
 \nLors de l\'utilisation de commandes personnalisées, la plupart des options et fonctionnalités de l\'interface graphique sont désactivées.</string>
     <string name="export_to_file">Exporter vers un fichier</string>

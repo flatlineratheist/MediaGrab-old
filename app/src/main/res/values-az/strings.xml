@@ -122,10 +122,8 @@
     <string name="download_directory_desc">Video və səs faylların haradasa saxlamaq üçün seç</string>
     <string name="subdirectory">Alt kataloqda saxla</string>
     <string name="permission_issue">Saxlama icazəsi problemi</string>
-    <string name="service_title">Seal yükləyir…</string>
+    <string name="service_title">MediaGrab yükləyir…</string>
     <string name="unknown_error">Naməlum xəta</string>
-    <string name="translate">Tərcümə et</string>
-    <string name="translate_desc">Hosted Weblate-də bu tətbiqi tərcümə etməyə kömək et</string>
     <string name="permission_issue_desc">Download/ və Documents/ xaricindəki kataloqlar dəstəklənmir</string>
     <string name="prefix">Ön şəkilçi</string>
     <string name="downloading_indicator_text">Yükləmə davam edir …</string>
@@ -221,9 +219,7 @@
     <string name="custom_command_enabled_hint">Fərdi əmr istifadə edərkən bəzi seçimlər əlçatmazdır</string>
     <string name="how_does_it_work">Bu necə işləyir\?</string>
     <string name="cookies_usage_msg">Bəzi saytlardan yükləmə zamanı hesab təsdiqləmə məlumatı tələb olunur. \"Yeni məlumat bazası yarada\" kliklə, vebsayt URL-ni daxil et və sonra brauzer səhifəsində hesabınızla daxil olun, tətbiq sizin üçün bunu yaradacaq.</string>
-    <string name="telegram_channel">Telegram kanalı</string>
     <string name="cookies">Məlumat bazası</string>
-    <string name="matrix_space">Matrix məkanı</string>
     <string name="abs_hint">Əksər video yayım platformaları səs və videonu ayrı çatdırır, siz bir video üçün yalnız video formatı ilə yalnız səs formatın seçə və birləşdirə bilərsiniz.</string>
     <string name="auto_subtitle">Avtomatik titrlər</string>
     <string name="video_title_sample_text">Video başlıq mətn nümunəsi</string>
@@ -277,25 +273,20 @@
     <string name="minute">dəqiqə</string>
     <string name="clear_all_cookies">Bütün məlumat bazaların sil</string>
     <string name="temporary_directory_desc">Müvəqqəti faylları daxili kataloqda saxla</string>
-    <string name="sponsor">Himayədar</string>
     <string name="feedback">Əks əlaqə</string>
-    <string name="sponsors">Himayədarlar</string>
-    <string name="sponsor_desc">GitHub-da himayədarlıq edərək bu tətbiqi dəstəklə</string>
-    <string name="sponsor_msg">Seal həmişə, hamı üçün pulsuz və açıq mənbə olacaqdır. Əgər bəyənirsinizsə, mənə GitHub-da himayədarlıq etməyi düşünün!</string>
     <string name="audio_format">Səs formatı</string>
     <string name="no_downloaded_media">Yüklənilən media yoxdur</string>
     <string name="beta_features">Sınaq</string>
     <string name="enable_experimental_feature">Təcrübi xüsusiyyət aktivləşdirilsin\?</string>
     <string name="clip_video_desc">Format seçim səhifəsində video kliplər yarat</string>
     <string name="clip_video_dialog_msg">Bu xüsusiyyəti işlədən yükləmələr, videonun seçilən bölmələrin yükləmək üçün FFmpeg-yə həvalə olunacaq, bu xüsusiyyət hələ təcrübidir və kəsmə tamamilə dəqiq olmayacaq, bütün formatlar bu xüsusiyyəti dəstəkləmir və daha yavaş yükləmə sürəti görə bilərsiniz.</string>
-    <string name="auto_update_disabled_msg">Avtomatik yeniləmə %1$s quruluşlar üçün əlçatan deyil. Cihazınızda quraşdırılmış %1$s yoxdursa və ya Seal-da növbəti yeni xüsusiyyətləri nəzərdən keçirmək istəyirsinizsə, zəhmət olmasa %2$s-ı nəzərdən keçirin.</string>
+    <string name="auto_update_disabled_msg">Avtomatik yeniləmə %1$s quruluşlar üçün əlçatan deyil. Cihazınızda quraşdırılmış %1$s yoxdursa və ya MediaGrab-da növbəti yeni xüsusiyyətləri nəzərdən keçirmək istəyirsinizsə, zəhmət olmasa %2$s-ı nəzərdən keçirin.</string>
     <string name="switch_to_github_builds">GitHub quruluşlarına keçid</string>
     <string name="okay">Oldu</string>
     <string name="got_it">Anladım</string>
     <string name="feature_unavailable">Xüsusiyyət mövcud deyil</string>
     <string name="no_custom_command_tasks">Fərdi əmr tapşırıqları yoxdur</string>
     <string name="msg_from_developer">Tərtibatçıdan mesaj</string>
-    <string name="sponsor_msg2">Çox sağ olun!</string>
     <string name="download_video_desc">Videoları URL-dən yüklə</string>
     <string name="convert_subtitle">Titrləri çevir</string>
     <string name="convert_subtitle_desc">Titrləri başqa formata çevir</string>
@@ -337,9 +328,9 @@
     <string name="learn_more">Daha çox öyrən</string>
     <string name="unknown">Naməlum</string>
     <string name="export_to_file">Fayla ixrac et</string>
-    <string name="custom_command_usage_msg">yt-dlp videoları yükləmək üçün güclü əmr xətti alətidir. Seal intuitiv GUI, ictimai əmrlər üçün qabaqcıl tənzimləmələr və digər əlavə funksiyalar təmin etməklə yt-dlp istifadə etməsini asanlaşdırır.
+    <string name="custom_command_usage_msg">yt-dlp videoları yükləmək üçün güclü əmr xətti alətidir. MediaGrab intuitiv GUI, ictimai əmrlər üçün qabaqcıl tənzimləmələr və digər əlavə funksiyalar təmin etməklə yt-dlp istifadə etməsini asanlaşdırır.
 \n
-\nSeal sizə yt-dlp-nin qabaqcıl istifadəsi üçün terminalda olduğu kimi birbaşa fərdi əmr şablonların yaratmağa, saxlamağa və icra etməyə icazə verir.
+\nMediaGrab sizə yt-dlp-nin qabaqcıl istifadəsi üçün terminalda olduğu kimi birbaşa fərdi əmr şablonların yaratmağa, saxlamağa və icra etməyə icazə verir.
 \n
 \nFərdi əmrlərdən istifadə edərkən, GUI seçimlərinin və xüsusiyyətlərinin əksəriyyəti qeyri-aktiv ediləcək.</string>
     <string name="clear_download_archive">Yükləmə arxivi təmizlənsin?</string>

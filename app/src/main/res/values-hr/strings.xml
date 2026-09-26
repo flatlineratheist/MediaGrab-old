@@ -88,9 +88,8 @@
     <string name="permission_issue_desc">Direktoriji izvan Preuzimanja/ i Dokumenti/ nisu podržani</string>
     <string name="battery_configuration">Konfiguracija baterije</string>
     <string name="battery_configuration_desc">Ignorirajte optimizaciju baterije kako bi aplikacija mogla preuzimati u pozadini</string>
-    <string name="service_title">Seal preuzima…</string>
+    <string name="service_title">MediaGrab preuzima…</string>
     <string name="unknown_error">Nepoznata greška</string>
-    <string name="translate_desc">Pomognite prevesti ovu aplikaciju pomoću Hosted Weblate</string>
     <string name="prefix">Predložak puta</string>
     <string name="embed_subtitles_desc">Ugradi titlove u videa, ako su dostupni</string>
     <string name="new_template">Novi predložak</string>
@@ -165,7 +164,6 @@
     <string name="playlist_indicator_text">Preuzimanje popisa za reprodukciju (%1$d/%2$d)…</string>
     <string name="download_directory">Direktorij preuzimanja</string>
     <string name="open_file">Otvori datoteku</string>
-    <string name="translate">Prevedi</string>
     <string name="custom_command_template_desc">Uredite i upravljajte naredbenim predlošcima</string>
     <string name="downloading_indicator_text">Preuzimanje u tijeku…</string>
     <string name="status_completed">Završeno</string>
@@ -217,7 +215,6 @@
     <string name="selected_item_count">Odabrano: %1$d</string>
     <string name="suggested">Predloženo</string>
     <string name="cookies_usage_msg">Preuzimanje s nekih internetskih stranica zahtijeva informacije o potvrdi korisničkog računa. Kliknite „Generiraj nove kolačiće“, unesite URL stranice te se prijavite sa svojim korisničkim računom. Aplikacija će ih generirati za vas.</string>
-    <string name="telegram_channel">Telegram kanal</string>
     <string name="video_title_sample_text">Primjer teksta naslova videozapisa</string>
     <string name="subtitle">Titlovi</string>
     <string name="download_subtitles">Preuzmi titlove</string>
@@ -239,7 +236,6 @@
     <string name="crop_artwork_desc">Izrežite ugrađenu sliku u kvadratni format</string>
     <string name="rate_limit">Ograničenje brzine</string>
     <string name="abs_hint">Većina platforma strujanja videozapisa dostavljaju odvojen zvučni zapis i videozapis. Možete odabrati i spojiti format koji sadrži samo zvučni zapis s formatom koji sadrži samo videozapis u jedan videozapis.</string>
-    <string name="matrix_space">Matrix prostor</string>
     <string name="select_all">Odaberi sve</string>
     <string name="subtitle_language">Jezici titlova</string>
     <string name="shortcuts">Prečaci</string>
@@ -263,7 +259,6 @@
     <string name="rename">Preimenuj</string>
     <string name="temporary_directory_desc">Pohranite privremene datoteke u unutarnji direktorij</string>
     <string name="second">sekunda</string>
-    <string name="sponsor">Sponzoriraj</string>
     <string name="minute">minuta</string>
     <string name="clear_all_cookies">Očisti sve kolačiće</string>
     <string name="clip_video_dialog_msg">Preuzimanja izvršena ovom značajkom bit će izaslani FFmpeg-u kako bi preuzeo odabrane dijelove videozapisa. Ova značajka je još u razvoju te je moguće da izrezivanje ne bude posve točno uz moguću sporiju brzinu preuzimanja.</string>
@@ -288,15 +283,12 @@
     <string name="enable_auto_update">Omogući automatsko ažuriranje</string>
     <string name="unlimited">Neograničeno</string>
     <string name="audio_format_preference">Preferirani format zvuka</string>
-    <string name="sponsor_desc">Podržite razvoj ove aplikacije njenim sponzoriranjem na GitHub-u</string>
-    <string name="sponsor_msg">Seal će uvijek biti besplatan i otvorenog koda za sve. Ako vam se sviđa, razmislite o tome da me sponzorirate na GitHub-u!</string>
     <string name="audio_format">Audio format</string>
     <string name="enable_experimental_feature">Omogućiti eksperimentalne značajke\?</string>
-    <string name="auto_update_disabled_msg">Automatsko ažuriranje nije dostupno za %1$s inačice. Ako nemate %1$s instaliran na svom uređaju ili želite pregledati nadolazeće nove značajke u Seal-u, razmislite o %2$s.</string>
+    <string name="auto_update_disabled_msg">Automatsko ažuriranje nije dostupno za %1$s inačice. Ako nemate %1$s instaliran na svom uređaju ili želite pregledati nadolazeće nove značajke u MediaGrab-u, razmislite o %2$s.</string>
     <string name="okay">U redu</string>
     <string name="got_it">Razumijem</string>
     <string name="msg_from_developer">Obavijest od razvojnog programera</string>
-    <string name="sponsor_msg2">Hvala vam puno!</string>
     <string name="expand">Proširi</string>
     <string name="new_task">Novi zadatak preuzimanja</string>
     <string name="start">Pokreni</string>
@@ -305,7 +297,6 @@
     <string name="clip_end">Kraj</string>
     <string name="update_channel">Kanal ažuriranja</string>
     <string name="clear_all_cookies_desc">Zauvijek izbrisati sve kolačiće pohranjene u aplikaciji\?</string>
-    <string name="sponsors">Sponzori</string>
     <string name="feedback">Povratne informacije</string>
     <string name="ytdlp_update_action">Ažuriraj yt-dlp</string>
     <string name="disable">Onemogući</string>
@@ -338,9 +329,9 @@
     </plurals>
     <string name="export_to_file">Izvezi u datoteku</string>
     <string name="ua_header">Zaglavlje User-Agent</string>
-    <string name="custom_command_usage_msg">Yt-dlp je moćan alat naredbene linije za preuzimanje videozapisa. Seal olakšava korištenje yt-dlp-a pružajući intuitivni GUI, unaprijed postavljene postavke za uobičajene naredbe i druge dodatne značajke.
+    <string name="custom_command_usage_msg">Yt-dlp je moćan alat naredbene linije za preuzimanje videozapisa. MediaGrab olakšava korištenje yt-dlp-a pružajući intuitivni GUI, unaprijed postavljene postavke za uobičajene naredbe i druge dodatne značajke.
 \n
-\nZa napredno korištenje yt-dlp-a, Seal vam omogućuje stvaranje, spremanje i izravno izvršavanje prilagođenih naredbenih predložaka, baš kao u terminalu.
+\nZa napredno korištenje yt-dlp-a, MediaGrab vam omogućuje stvaranje, spremanje i izravno izvršavanje prilagođenih naredbenih predložaka, baš kao u terminalu.
 \n
 \nKada koristite prilagođene naredbe, većina GUI opcija i značajki bila bi onemogućena.</string>
     <string name="presets">Unaprijed postavljeno</string>

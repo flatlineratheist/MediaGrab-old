@@ -102,7 +102,7 @@
     <string name="options">Opciones</string>
     <string name="additional_settings">Ajustes adicionales</string>
     <string name="share_fail_msg">No se ha podido obtener la URL desde el contenido compartido</string>
-    <string name="share_success_msg">Leyendo información del enlace compartido con Seal…</string>
+    <string name="share_success_msg">Leyendo información del enlace compartido con MediaGrab…</string>
     <string name="show_more_actions">Mostrar más acciones</string>
     <string name="download_notification">Notificación de descarga</string>
     <string name="download_notification_desc">Notificarme el progreso de las descargas y un mensaje de finalización</string>
@@ -122,10 +122,8 @@
     <string name="permission_issue_desc">Directorios fuera de las carpetas «Download/» y «Documents/» no están soportados</string>
     <string name="battery_configuration">Configuración de la batería</string>
     <string name="battery_configuration_desc">Ignorar la optimización de la batería para esta aplicación en segundo plano</string>
-    <string name="service_title">Seal está descargando…</string>
+    <string name="service_title">MediaGrab está descargando…</string>
     <string name="unknown_error">Ha ocurrido un error desconocido</string>
-    <string name="translate">Traducir</string>
-    <string name="translate_desc">Ayuda a traducir esta aplicación en Hosted Weblate</string>
     <string name="execute_command_notification">Ejecutando comandos personalizados…</string>
     <string name="playlist_indicator_text">Descargando la lista de reproducción (%1$d/%2$d)…</string>
     <string name="subdirectory_desc">Guardar los archivos en carpetas denominadas como campos respectivos</string>
@@ -149,7 +147,7 @@
     <string name="downloading_indicator_text">Descarga en curso…</string>
     <string name="task_canceled">Tarea de descarga cancelada</string>
     <string name="github_issue">Reportar un problema en GitHub</string>
-    <string name="github_issue_desc">Envía un reporte de un problema que te ha ocurrido o haz una petición de alguna funcionalidad que te gustaría que tuviera Seal</string>
+    <string name="github_issue_desc">Envía un reporte de un problema que te ha ocurrido o haz una petición de alguna funcionalidad que te gustaría que tuviera MediaGrab</string>
     <string name="info_copied">Información copiada al portapapeles</string>
     <string name="copy_link">Copiar enlace</string>
     <string name="copy_error_report">Copiar el informe</string>
@@ -165,7 +163,7 @@
     <string name="multiselect_item_count">%1$d vídeo(s), %2$d archivo(s) de audio</string>
     <string name="delete_multiple_items_msg">¿Eliminar %1$d elemento(s) de tu historial de descargas para siempre\?</string>
     <string name="check_for_updates_desc">Buscar automáticamente por la última versión disponible en GitHub</string>
-    <string name="app_up_to_date">Seal ya está puesto al día</string>
+    <string name="app_up_to_date">MediaGrab ya está puesto al día</string>
     <string name="update">Actualizar</string>
     <string name="check_for_updates">Buscar actualizaciones</string>
     <string name="aria2_desc">Usa aria2c como descargador externo</string>
@@ -220,10 +218,8 @@
     <string name="remove_cookie_profile_desc">¿Eliminar esta entrada para \"%1$s\"? Por favor, tenga en cuenta que las cookies almacenadas para este sitio no se borrarán.</string>
     <string name="custom_command_enabled_hint">Algunas opciones no están disponibles cuando se utiliza el comando personalizado</string>
     <string name="how_does_it_work">¿Cómo funciona\?</string>
-    <string name="telegram_channel">Canal de Telegram</string>
     <string name="cookies_usage_msg">La descarga desde algunos sitios requiere información de autenticación de cuenta. Haz clic en \"Generar nuevas cookies\", introduce la URL del sitio web y, a continuación, inicia sesión con tu cuenta en la página del navegador; la aplicación la generará por ti.</string>
     <string name="cookies">Cookies</string>
-    <string name="matrix_space">Canal de Matrix</string>
     <string name="abs_hint">La mayoría de los servicios de streaming en línea proveen el audio y el vídeo por separado. De esta forma puedes seleccionar mezclar un formato de solo vídeo con otro de solo audio para crear un único vídeo con audio, dando así una mayor personalización.</string>
     <string name="sdcard_directory">Ubicación para tarjetas SD</string>
     <string name="auto_subtitle">Subtítulos generados automáticamente</string>
@@ -277,11 +273,7 @@
     <string name="second">segundo</string>
     <string name="clear_all_cookies_desc">¿Borrar definitivamente todas las cookies almacenadas en la aplicación\?</string>
     <string name="temporary_directory_desc">Almacena archivos temporales en el directorio seleccionado</string>
-    <string name="sponsor">Patrocinador</string>
-    <string name="sponsor_desc">Apoya esta aplicación patrocinando en GitHub</string>
-    <string name="sponsor_msg">Seal será siempre gratuito y de código abierto para todos. Si te gusta, ¡considera la posibilidad de patrocinarme en GitHub!</string>
     <string name="feedback">Comentario</string>
-    <string name="sponsors">Patrocinadores</string>
     <string name="audio_format">Formato del audio</string>
     <string name="no_downloaded_media">Ningún medio descargado</string>
     <string name="beta_features">Beta</string>
@@ -291,11 +283,10 @@
     <string name="switch_to_github_builds">cambiando a las compilaciones de GitHub</string>
     <string name="okay">De acuerdo</string>
     <string name="got_it">Entendido</string>
-    <string name="auto_update_disabled_msg">La actualización automática no está disponible para %1$s builds. Si no tienes %1$s instalado en tu dispositivo, o te gustaría tener una vista previa de las próximas novedades de Seal, considera %2$s.</string>
+    <string name="auto_update_disabled_msg">La actualización automática no está disponible para %1$s builds. Si no tienes %1$s instalado en tu dispositivo, o te gustaría tener una vista previa de las próximas novedades de MediaGrab, considera %2$s.</string>
     <string name="feature_unavailable">Característica no disponible</string>
     <string name="no_custom_command_tasks">No hay tareas de comando personalizadas</string>
     <string name="msg_from_developer">Mensaje del desarrollador</string>
-    <string name="sponsor_msg2">¡Muchas gracias!</string>
     <string name="download_video_desc">Descargar los vídeos desde la URL</string>
     <string name="convert_subtitle">Convertir subtítulos</string>
     <string name="split_video_msg">El video se dividirá en %1$d capítulos</string>
@@ -338,9 +329,9 @@
     </plurals>
     <string name="ua_header">Encabezado User-Agent</string>
     <string name="export_to_file">Exportar a un archivo</string>
-    <string name="custom_command_usage_msg">yt-dlp es una potente herramienta de línea de comandos para descargar vídeos. Seal facilita el uso de yt-dlp proporcionando una GUI intuitiva, preajustes para comandos comunes y otras características adicionales.
+    <string name="custom_command_usage_msg">yt-dlp es una potente herramienta de línea de comandos para descargar vídeos. MediaGrab facilita el uso de yt-dlp proporcionando una GUI intuitiva, preajustes para comandos comunes y otras características adicionales.
 \n
-\nPara un uso avanzado de yt-dlp, Seal permite crear, guardar y ejecutar plantillas de comandos personalizadas directamente, como en un terminal.
+\nPara un uso avanzado de yt-dlp, MediaGrab permite crear, guardar y ejecutar plantillas de comandos personalizadas directamente, como en un terminal.
 \n
 \nAl utilizar comandos personalizados, la mayoría de las opciones y características de la GUI estarán desactivadas.</string>
     <string name="clear_download_archive">¿Borrar el archivo de las descargas\?</string>

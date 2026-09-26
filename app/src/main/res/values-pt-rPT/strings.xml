@@ -8,9 +8,9 @@
     <string name="subdirectory">Guardar no subdiretório</string>
     <string name="dismiss">Cancelar</string>
     <string name="download_directory">Diretório de transferência</string>
-    <string name="custom_command_usage_msg">O yt-dlp é uma poderosa ferramenta de linha de comando para descarregar vídeos. O Seal facilita o uso do yt-dlp fornecendo uma GUI intuitiva, predefinições para comandos comuns e outros recursos adicionais.
+    <string name="custom_command_usage_msg">O yt-dlp é uma poderosa ferramenta de linha de comando para descarregar vídeos. O MediaGrab facilita o uso do yt-dlp fornecendo uma GUI intuitiva, predefinições para comandos comuns e outros recursos adicionais.
 \n
-\nPara uma utilização avançada do yt-dlp, o Seal permite-lhe criar, guardar e executar modelos de comandos personalizados diretamente, tal como num terminal.
+\nPara uma utilização avançada do yt-dlp, o MediaGrab permite-lhe criar, guardar e executar modelos de comandos personalizados diretamente, tal como num terminal.
 \n
 \nAo usar comandos personalizados, a maioria das opções e recursos da GUI serão desativados.</string>
     <string name="status_enqueued">Enfileirado</string>
@@ -81,7 +81,6 @@
     <string name="template_selection">Seleção do modelo</string>
     <string name="fetching_playlist_info">Obter informações sobre a lista de reprodução…</string>
     <string name="check_download_settings_desc">Consulte as definições de transferência e certifique-se de que tem a versão mais recente do yt-dlp antes de o utilizar.</string>
-    <string name="translate">Traduzir</string>
     <string name="extract_audio_summary">Descarregar e guardar áudio, em vez de vídeo</string>
     <string name="subdirectory_desc">Guardar ficheiros em pastas com o nome dos respectivos campos</string>
     <string name="cookies_desc">Utilizar cookies formatados pelo Netscape para transferências</string>
@@ -153,21 +152,18 @@
     <string name="release">Versão mais recente</string>
     <string name="download_desc">Em seguida, clique em \"Descarregar\" depois de ajustar as definições.</string>
     <string name="audio_directory">Pasta áudio</string>
-    <string name="sponsor_msg">O Seal será sempre gratuito e de código aberto para todos. Se gostar, por favor considere patrocinar-me no GitHub!</string>
     <string name="crop_artwork">Cortar arte</string>
     <string name="subtitle_sponsorblock">As legendas podem ser desfasadas no tempo ao remover segmentos SponsorBlock.</string>
     <string name="start">Iniciar</string>
     <string name="to">Terminar</string>
     <string name="filesize_gb">%.2f GB</string>
-    <string name="sponsor_msg2">Muito obrigado!</string>
     <string name="task_canceled">Descarregar tarefa cancelada</string>
-    <string name="sponsor_desc">Apoie esta aplicação patrocinando-a no GitHub</string>
     <string name="version">Versão</string>
     <string name="yt_dlp_update_fail">Não foi possível instalar a versão mais recente do yt-dlp. Certifique-se de que está ligado à Internet.</string>
     <string name="enable_experimental_feature">Ativar a funcionalidade experimental?</string>
     <string name="running_tasks">Tarefas em curso</string>
     <string name="general_settings">Geral</string>
-    <string name="service_title">O Seal está a descarregar…</string>
+    <string name="service_title">O MediaGrab está a descarregar…</string>
     <string name="ua_header">Cabeçalho de requisição User-Agent</string>
     <string name="show_logs">Mostrar registo</string>
     <string name="print_details_desc">Imprimir mensagens detalhadas durante o descarregamento</string>
@@ -212,7 +208,6 @@
     <string name="open_url">Abrir ligação</string>
     <string name="restart">Reiniciar</string>
     <string name="options">Opções</string>
-    <string name="sponsor">Patrocinador</string>
     <string name="convert_audio_format_desc">A recodificação de ficheiros de áudio causará perda de qualidade de áudio e aumento do tamanho do ficheiro.</string>
     <string name="not_convert">Não convertido</string>
     <string name="auto_subtitle">Legendas automáticas</string>
@@ -285,17 +280,15 @@
     <string name="video">Vídeo</string>
     <string name="open_file">Abrir ficheiro</string>
     <string name="video_creator_sample_text">Texto de exemplo do criador de vídeo</string>
-    <string name="translate_desc">Ajuda para traduzir esta aplicação no Hosted Weblate</string>
     <string name="expand">Expandir</string>
     <string name="fetch_info_error_msg">Não foi possível obter informações sobre o vídeo</string>
     <string name="recently_added">Recentemente adicionados</string>
-    <string name="telegram_channel">Canal do Telegram</string>
     <string name="invalid_index_range">Intervalo de índices inválido</string>
     <string name="channel_name">Descarregar</string>
     <string name="feature_unavailable">Funcionalidade não disponível</string>
     <string name="temporary_directory_desc">Armazenar ficheiros temporários no diretório interno</string>
     <string name="system_settings">Definições do sistema</string>
-    <string name="auto_update_disabled_msg">A atualização automática não está disponível para %1$s compilações. Se não tiver %1$s instalado no seu dispositivo, ou se pretender pré-visualizar as novas funcionalidades do Seal, considere %2$s.</string>
+    <string name="auto_update_disabled_msg">A atualização automática não está disponível para %1$s compilações. Se não tiver %1$s instalado no seu dispositivo, ou se pretender pré-visualizar as novas funcionalidades do MediaGrab, considere %2$s.</string>
     <string name="cookies_usage_msg">O descarregamento de alguns sites requer informações de autenticação da conta. Clique em \"Gerar novos cookies\", introduza o URL do sítio Web e, em seguida, inicie sessão com a sua conta na página do browser; a aplicação irá gerá-los para si.</string>
     <string name="proxy_desc">Utilizar proxy para ligações à Internet</string>
     <string name="generate_new_cookies">Gerar novos cookies</string>
@@ -308,7 +301,6 @@
     <string name="yt_dlp_up_to_date">Usando a versão mais recente do yt-dlp</string>
     <string name="status_error">Erro</string>
     <string name="app_up_to_date">A versão atual está actualizada</string>
-    <string name="matrix_space">Espaço no Matrix</string>
     <string name="extract_audio">Guardar como áudio</string>
     <string name="sponsorblock_categories">Categorias de SponsorBlock</string>
     <string name="subtitle">Legenda</string>
@@ -353,7 +345,6 @@
     <string name="proxy">Proxy</string>
     <string name="multiselect_item_count">%1$d vídeo(s), %2$d ficheiro(s) áudio</string>
     <string name="format_settings_desc">Formato do ficheiro, qualidade do vídeo, legendas</string>
-    <string name="sponsors">Patrocinadores</string>
     <string name="credits">Créditos</string>
     <string name="copy_link">Copiar ligação</string>
     <string name="fetching_info">Obtenção de informações sobre o vídeo…</string>

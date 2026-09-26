@@ -48,8 +48,6 @@
     <string name="download_directory">Directory ng download</string>
     <string name="download_directory_desc">Pilliin kung saan ilagay ang mga video at audio file</string>
     <string name="permission_issue_desc">Hindi sinusuportahan ang mga directory sa labas ng Download/ at Documents/</string>
-    <string name="translate">Isalin</string>
-    <string name="translate_desc">Tumulong sa pag translate ng app na ito sa Hosted Weblate</string>
     <string name="unknown_error">Hindi matukoy na error</string>
     <string name="language">Wika ng pag-display</string>
     <string name="download_success_msg">Tapos na ang pag-download</string>
@@ -128,7 +126,7 @@
     <string name="playlist_indicator_text">Dina-download ang playlist (%1$d/%2$d)…</string>
     <string name="from">Mula sa</string>
     <string name="permission_issue">Isyu sa pahintulot sa storage</string>
-    <string name="service_title">Nag da-download ang Seal…</string>
+    <string name="service_title">Nag da-download ang MediaGrab…</string>
     <string name="battery_configuration">Pagsasaayos ng baterya</string>
     <string name="prefix">Ang prefix</string>
     <string name="restart">I-restart</string>
@@ -164,7 +162,6 @@
     <string name="copy_error_report">Kopyahin ang report</string>
     <string name="recently_added">Kamakailang Idinagdag</string>
     <string name="share">Ibahagi</string>
-    <string name="sponsor_msg2">Maraming salamat!</string>
     <string name="msg_from_developer">Mensahe mula sa developer</string>
     <string name="rename">Baguhin ang pangalan</string>
     <string name="select_all">Lahat</string>
@@ -244,9 +241,7 @@
     <string name="edit_shortcuts">i-edit ang shortcuts</string>
     <string name="format_sorting_desc">Inaayos ng mga format gamit ang -S na opsiyon ng yt-dlp</string>
     <string name="beta_features">Beta</string>
-    <string name="telegram_channel">Channel ng telegram</string>
     <string name="cookies_usage_msg">Ang pag-download mula sa ilang site ay nangangailangan ng impormasyon sa pagpapatunay ng account. I-click ang \"Bumuo ng bagong cookies\", at i-click ang URL ng website at pagkatapos ay mag-log in gamit ang iyong account sa pahina ng browser, bubuo ito ng app para sa iyo.</string>
-    <string name="matrix_space">Puwang ng matrix</string>
     <string name="sdcard_directory">Folder ng SD card</string>
     <string name="auto_subtitle">awtomatikong pag-caption</string>
     <string name="abs_hint">Karamihan sa mga video streaming platform ay naghahatid ng audio at video nang hiwalay, maaari mong piliin at pagsamahin ang isang audio lamang na format na may isang video lamang na format sa isang video.</string>
@@ -258,9 +253,8 @@
     <string name="pre_release_channel">Silipin</string>
     <string name="title">Pamagat</string>
     <string name="temporary_directory_desc">Mag-imbak ng mga pansamantalang file sa internal directory</string>
-    <string name="sponsor">Isponsor</string>
     <string name="clear_all_cookies_desc">Tanggalin ang lahat ng cookies na nakaimbak sa app para sa kabutihan?</string>
-    <string name="auto_update_disabled_msg">Hindi available ang auto-update para sa %1$s na mga build. Kung wala kang %1$s na naka-install sa iyong device, o gusto mong i-preview ang paparating na mga bagong feature sa Seal, mangyaring isaalang-alang ang %2$s.</string>
+    <string name="auto_update_disabled_msg">Hindi available ang auto-update para sa %1$s na mga build. Kung wala kang %1$s na naka-install sa iyong device, o gusto mong i-preview ang paparating na mga bagong feature sa MediaGrab, mangyaring isaalang-alang ang %2$s.</string>
     <string name="switch_to_github_builds">Lumipat sa mga build ng GitHub</string>
     <string name="enable_auto_update">Paganahin ang automatic update</string>
     <string name="auto_update">Automatic ang update</string>
@@ -277,12 +271,9 @@
     <string name="embed_subtitles_mkv_msg">Upang mag-embed ng soft subtitles, ang mga video ay ire-remux sa mkv container. Maaaring gamitin ang VLC Media Player o iba pang compatible na app para manood ng mga video na may soft subtitles.</string>
     <string name="audio_format_preference">Piniling format ng audio</string>
     <string name="format_sorting">Pag-uuri ng format</string>
-    <string name="sponsor_desc">Suportahan ang app na ito sa pamamagitan ng pag-sponsor sa GitHub</string>
     <string name="feedback">Puna</string>
-    <string name="sponsors">Mga sponsor</string>
     <string name="clip_video_desc">Gumawa ng mga video clip sa pahina ng pagpili ng format</string>
     <string name="add">Idagdag</string>
-    <string name="sponsor_msg">Ang Seal ay palaging libre at open source para sa lahat. Kung gusto mo ito, mangyaring isaalang-alang ang pag-sponsor sa akin sa GitHub!</string>
     <string name="subtitle_desc">Mga wika, mag-embed ng mga subtitle, at auto captions</string>
     <string name="stable_channel">Matibay</string>
     <string name="update_channel">I-update ang channel</string>
@@ -365,9 +356,9 @@
     <string name="export_to_file">I-export sa file</string>
     <string name="export_download_history_msg">Ini-export ang %1$s mula sa kasaysayan ng download. Hindi maba-back up ang mga na-download na file at ang kagustuhan mo.</string>
     <string name="download_type">Uri ng pag-download</string>
-    <string name="custom_command_usage_msg">Ang yt-dlp ay isang mahusay na command-line tool para sa pag-download ng mga video. Pinapadali ng Seal ang paggamit ng yt-dlp sa pamamagitan ng pagbibigay ng intuitive na GUI, mga preset para sa mga karaniwang command, at iba pang karagdagang features.
+    <string name="custom_command_usage_msg">Ang yt-dlp ay isang mahusay na command-line tool para sa pag-download ng mga video. Pinapadali ng MediaGrab ang paggamit ng yt-dlp sa pamamagitan ng pagbibigay ng intuitive na GUI, mga preset para sa mga karaniwang command, at iba pang karagdagang features.
 \n
-\nPara sa advanced na paggamit ng yt-dlp, pinapayagan ka ng Seal na lumikha, mag-save at magsagawa ng mga custom na template ng command nang direkta, tulad ng sa isang terminal.
+\nPara sa advanced na paggamit ng yt-dlp, pinapayagan ka ng MediaGrab na lumikha, mag-save at magsagawa ng mga custom na template ng command nang direkta, tulad ng sa isang terminal.
 \n
 \nKapag gumagamit ng mga custom na command, karamihan sa mga opsyon at feature ng GUI ay hindi papaganahin.</string>
     <string name="unknown_error_title">Ay Naku! Nagkaoon ng problema</string>

@@ -78,10 +78,8 @@
     <string name="permission_issue">Problem med gøymetilgjenget</string>
     <string name="battery_configuration">Batteri-innstilling</string>
     <string name="battery_configuration_desc">Hopp over batteriforlenging for denne appen, slik at han kan hente ting i bakgrunnen</string>
-    <string name="service_title">Seal hentar…</string>
+    <string name="service_title">MediaGrab hentar…</string>
     <string name="unknown_error">Ukjent mistak</string>
-    <string name="translate">Omsett</string>
-    <string name="translate_desc">Hjelp til med å omsetja denne appen hos Hosted Weblate</string>
     <string name="prefix">Stigmal</string>
     <string name="embed_subtitles">Bygg inn teksting</string>
     <string name="embed_subtitles_desc">Om tilgjengelege, bygg gjevne undertekster inn i videoar</string>
@@ -209,7 +207,6 @@
     <string name="custom_command_enabled_hint">Nokre val er utilgjengelege når « bruk eigne påbod» er slegen på</string>
     <string name="how_does_it_work">Korleis verkar det\?</string>
     <string name="cookies_usage_msg">Henting ifrå somme nettstadar krev kontostadfestingsopplysingar. Trykk på «lag nye infokapslar», skriv inn nettadressa til nettstaden, og logg deg so inn i nettlesersida som appen fører deg til.</string>
-    <string name="telegram_channel">Telegram-sambandsline</string>
     <string name="generate_new_cookies">Lag nye informasjonskapslar</string>
     <string name="download_with_cellular_desc">Gje løyve til henting av media når sambunden til forbruksmålte nettverk</string>
     <string name="settings_before_download_text">Still inn denne hentinga</string>
@@ -218,7 +215,6 @@
     <string name="cookies">Informasjonskapslar</string>
     <string name="invalid_input">Ugild innmating</string>
     <string name="rate_limit_desc">Set ei grense for kvar kjapt hentingar kan gå</string>
-    <string name="matrix_space">Matriserom</string>
     <string name="rate_limit">Rateavgrensing</string>
     <string name="max_rate">Øvre rategrense</string>
     <string name="network_settings_desc">Rategrense, hentar, infokapslar</string>
@@ -263,21 +259,16 @@
     <string name="beta_features">Beta</string>
     <string name="enable_experimental_feature">Slå på røynd funksjon\?</string>
     <string name="msg_from_developer">Melding ifrå utviklaren</string>
-    <string name="sponsor_msg2">Mange takk!</string>
     <string name="auto_update_disabled_msg">Sjølvoppdatering er ikkje tilgjengeleg for %1$s-utgåver. Om du ikkje har %1$s lagt inn på eininga di, eller vil røyna komande funksjonar, tak ein titt på %2$s.</string>
     <string name="switch_to_github_builds">bytt til GitHub-utgåver</string>
     <string name="okay">Greitt</string>
     <string name="got_it">Skjønar</string>
     <string name="feature_unavailable">Funksjonen er ikkje tilgjengeleg</string>
-    <string name="sponsor_msg">Seal vil for alltid vera kostnadsfri og ha ein open kjeldekode. Om du vil kan du stø meg på GitHub.</string>
     <string name="auto_update">Sjølvoppdater</string>
     <string name="enable_auto_update">Slå på sjølvoppdatering</string>
     <string name="audio_format_preference">Ynkst ljodformat</string>
     <string name="minute">Minutt</string>
     <string name="clear_all_cookies">Tøm alle infokapslar</string>
     <string name="clear_all_cookies_desc">Slett alle infokapslane gøymde i appen\?</string>
-    <string name="sponsor">Stø</string>
-    <string name="sponsor_desc">Stø appen ved å gje pengar gjennom GitHub</string>
     <string name="feedback">Tilbakemelding</string>
-    <string name="sponsors">Støarar</string>
 </resources>
